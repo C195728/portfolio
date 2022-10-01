@@ -6,9 +6,9 @@
 </head>
 <body>
  <h3>My Todo</h3>
- <form action="/todos" method="POST"> #POSTメソッドで/todosに送る(アクション)
+ <form action="/todos" method="POST"> 
    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
-   <input name="text" placeholder="書いてみ">
+   <input name="text" placeholder="入力してください">
    <button type="submit">ADD</button>
  </form>
 
